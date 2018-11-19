@@ -18,7 +18,7 @@ var str = line[0];
  
 function currentLine(katzDeliLine) {
 for (var i = 0; i > 0; i++) {
-      console.log("The line is currently:" + i + 1 + "." + katzDeliLine[i]);
+      return `The line is currently: ${i + 1}. ${katzDeliLine[i]}`;
 }
 }
 
