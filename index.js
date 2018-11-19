@@ -4,6 +4,18 @@ function takeANumber(line, name) {
 }
   
  
+ 
+ let i = 0;
+  while (i < line.length) {
+    i++;
+  }
+  if (line.length === 0) {
+    return "There is nobody waiting to be served!";
+  }
+  else
+  return (`Currently serving ${line.shift()}.`);
+}
+ 
 
 function nowServing(line) {
 var str = line[0];
