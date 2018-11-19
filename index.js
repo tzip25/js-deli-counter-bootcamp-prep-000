@@ -21,3 +21,4 @@ for (var i = 0; i < katzDeliLine.length; i++) {
       return `The line is currently${ i === 0 ? ' empty.' : i + 1 + katzDeliLine[i]}`;
 }
 }
+
