@@ -4,7 +4,7 @@ function takeANumber(line, name) {
 }
   
  
- 
+ function nowServing(line) {
  let i = 0;
   while (i < line.length) {
     i++;
@@ -17,16 +17,6 @@ function takeANumber(line, name) {
 }
  
 
-function nowServing(line) {
-var str = line[0];
- if (line.length === 0) {
-    return `There is nobody waiting to be served!`;
-} else {
-   line.shift(0);
-   return `Currently serving ${str}.`;
-}
-}
- 
  
 function currentLine(line) {
 for (var i = 0; i < line.length; i++) {
