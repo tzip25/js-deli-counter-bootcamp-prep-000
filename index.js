@@ -21,16 +21,3 @@ for (var i = 0; i < katzDeliLine.length; i++) {
       return `The line is currently${ i === 0 ? ' empty.' : ':' i + 1'.' katzDeliLine[i]}`;
 }
 }
-
-
-
-  var myLine = [];
-
-  i + "." + katzDeliLine[i];
- var strLong = "The line is currently: " + myLine.push(str);
-return strLong;
-}
-if (katzDeliLine.length === 0) {
-    return `The line is currently empty.`;
-} 
-}
