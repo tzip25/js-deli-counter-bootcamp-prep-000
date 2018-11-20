@@ -18,12 +18,12 @@ var str = line[0];
 var newLine = []; 
 function currentLine(line) {
 for (var i = 0; i < line.length; i++) {
-      newLine.push([i + 1]+ '. ' + line[i]);
+      newLine.push(' ' + [i + 1]+ '. ' + line[i]);
 }
 if (line.length === 0) {
       return `The line is currently empty.`;
 } else {
-  return (`The line is currently: ` + newLine);
+  return (`The line is currently:` + newLine);
 }
 }
 
