@@ -15,6 +15,7 @@ var str = line[0];
 }
 }
  
+ 
 function currentLine(line) {
 var newLine = []; 
 for (var i = 0; i < line.length; i++) {
