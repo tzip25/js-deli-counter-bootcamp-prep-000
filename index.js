@@ -5,27 +5,17 @@ function takeANumber(line, name) {
   
  
 function nowServing(line) {
- var str = line[0];
  if (line.length === 0) {
     return `There is nobody waiting to be served!`;
 } else {
    line.shift(0);
+    var str = line[0];
    return `Currently serving ${str}.`;
 }
 }
  
  
-function nowServing(line) {
-  if (line.length > 0) {
-    var nowServing = line[0];
-    line.shift();
-    return `Currently serving ${nowServing}.`;
-  } else {
-    return `There is nobody waiting to be served!`;
-  }
-}  
- 
- 
+
 function currentLine(line) {
 var newLine = []; 
 for (var i = 0; i < line.length; i++) {
