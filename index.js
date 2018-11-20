@@ -15,8 +15,8 @@ var str = line[0];
 }
 }
  
-var newLine = []; 
 function currentLine(line) {
+var newLine = []; 
 for (var i = 0; i < line.length; i++) {
       newLine.push(' ' + [i + 1]+ '. ' + line[i]);
 }
